@@ -39,7 +39,7 @@ public class Student {
 		}
 	}
 	
-	public void setLastName(String lNAme) {
+	public void setLastName(String lName) {
 		if(lName == "" || lName == null) {
 			lastName = "Unknown";
 		} else {
